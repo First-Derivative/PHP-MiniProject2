@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+header
+{
+	font-size: 4em;
+	font-weight: bold;
+	margin-bottom: 0.8em;
+	font-family: 'Satisfy';
+	color: #48B1FF;
+}
+
+#headerText
+{
+	padding: 0.5em;
+	border: 2px solid #48B1FF;
+}
+
+#headerText:hover
+{
+	background-color: #48B1FF;
+	color: white;
+}
+
+.aside
+{
+	flex: 1 0 0;
+}
+
+
+.main
+{
+	flex: 3 0px;
+}
+
+.aside-1
+{
+	order: 1;
+} 
+
+.main
+{
+	order: 2;
+}
+
+.aside-2
+{
+	order: 3;
+}
+
+.footer
+{
+	order: 4;
+}
+
+nav
+{
+	font-size: 120%;
+}
+
+footer
+{
+	position:relative;
+    bottom:0;
+    width:100%;
+    height: 2em;
+	text-align: center;
+	background-color: #48B1FF;
+}
+
+h3
+{
+	font-size: 3em;
+}
+
+h4
+{
+	font-size: 2em;
+}
+
+p
+{
+	font-size: 1em;
+	text-align: left;
+}
+
+footer > h5 
+{
+	color: white;
+	font-style: italic;
+	position: relative;
+	top: 0.3em;
+}
+
+a.nav-link
+{
+	color: #48B1FF;
+	font-size: 1.5em;
+}
+
+a.nav-link:hover
+{
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+tr
+{
+	width: 2em;
+}
+
+#navbarNav
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+a
+{
+	color: #48B1FF;
+}
+
+
+
+#bodyText > p 
+{
+	padding: 2em;
+	padding-left: 0em;
+}
+
+figure
+{
+	height: 500px;
+	width: 390px;
+	padding-left: 2em;
+}
+
+img
+{
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+figcaption
+{
+	
+	background-color: #48B1FF;
+	width: 100%;
+	height: 1.5em;
+	color: white;
+	opacity: 0.9;
+	margin-top: 0px;
+	padding-top: 0px;
+	
+}
+
+#month > li > a:hover
+{
+	cursor: pointer;
+	color: #48B1FF;
+}
+
+div#login {
+	background-color: white;
+	padding: 2em;
+	margin-top: 2em;
+}
+
+input[type=submit]
+{
+	color: #48B1FF;
+}
+
+.btn-primary
+{
+	background-color: #48B1FF;
+	border-color: #48B1FF;
+}
+
+#share-buttons > a > img
+{ 
+	position: static;
+	width: 3.5em;
+	height: 3.5em;
+	left: 5em;
+	padding: 5px;
+	border: 0;
+}
+
+p.errorText
+{
+	font-size: 1em;
+	color: darkred;
+	visibility: hidden;
+}
+
+#blogBody > p
+{
+	margin-top: 2.5em;
+}
